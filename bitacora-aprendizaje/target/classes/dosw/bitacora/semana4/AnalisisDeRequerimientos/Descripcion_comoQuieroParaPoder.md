@@ -1,0 +1,1 @@
+**Descripción:** Como aspirante a un programa de pregrado, quiero diligenciar un formulario web con mis datos personales y académicos, para poder solicitar formalmente mi admisión a la Escuela Colombiana de Ingeniería.
