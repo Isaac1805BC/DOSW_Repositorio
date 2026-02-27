@@ -10,9 +10,9 @@ public class StreamExercises {
 
         System.out.println("\n========== EJERCICIOS STREAMS ==========\n");
 
-        // ===============================
+        
         // EJERCICIO 1
-        // ===============================
+        
 
         List<Integer> numbers = Arrays.asList(3, 8, 10, 12, 15, 20, 7, 30);
 
@@ -23,9 +23,9 @@ public class StreamExercises {
 
         System.out.println("Pares mayores a 10: " + evenGreaterThanTen);
 
-        // ===============================
+        
         // EJERCICIO 2
-        // ===============================
+        
 
         List<String> words = Arrays.asList("java", "spring", "boot", "stream", "api", "backend");
 
@@ -40,9 +40,9 @@ public class StreamExercises {
         System.out.println("Palabras filtradas: " + filteredWords);
         System.out.println("Cantidad total: " + totalWords);
 
-        // ===============================
+        
         // EJERCICIO 3 
-        // ===============================
+        
 
         List<User> users = Arrays.asList(
                 new User(1L, "Isaac", 20, true),
@@ -60,9 +60,9 @@ public class StreamExercises {
 
         System.out.println("Usuarios activos: " + activeUsers);
 
-        // ===============================
+        
         // EJERCICIO 4 
-        // ===============================
+        
 
         List<String> adultUsers = users.stream()
                 .filter(u -> u.getAge() >= 18)
@@ -71,9 +71,8 @@ public class StreamExercises {
 
         System.out.println("Usuarios mayores de edad: " + adultUsers);
 
-        // ===============================
-        // EJERCICIO 5 
-        // ===============================
+                // EJERCICIO 5 
+        
 
         List<Transaction> transactions = Arrays.asList(
                 new Transaction("T1", 100.0, true),
@@ -91,6 +90,6 @@ public class StreamExercises {
         System.out.println("¿Existe alguna transacción no aprobada? " + hasNotApproved);
         System.out.println("¿El lote de transacciones es válido? " + isValidBatch);
 
-        System.out.println("\n========== FIN EJERCICIOS ==========\n");
+        
     }
 }
