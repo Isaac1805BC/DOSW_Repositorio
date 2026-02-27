@@ -1,0 +1,4 @@
+## Tablero Jira
+## Isaac David Burgos Cervantes
+
+https://mail-team-u3ua8mon.atlassian.net/jira/software/projects/DOSW/boards/2
