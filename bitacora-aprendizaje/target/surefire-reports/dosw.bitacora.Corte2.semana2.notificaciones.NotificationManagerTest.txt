@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: dosw.bitacora.Corte2.semana2.notificaciones.NotificationManagerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.080 s -- in dosw.bitacora.Corte2.semana2.notificaciones.NotificationManagerTest
